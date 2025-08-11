@@ -3,12 +3,12 @@ int fact(int n);
 int main(){
     int m;
     scanf("%d",&m);
-    printf("factorial of the selected number is:%d\n",fact(m));
+    printf("factorial of the selected number is:%d\n",fact(5));
     return 0;
 
 }
 int fact(int n){
-    if (n == 0){
+    if (n == 1){
         return 1;
     }
    int factNm1 = fact(n-1);
