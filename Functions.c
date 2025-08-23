@@ -1,4 +1,6 @@
 #include <stdio.h>
+void printhello();
+void goodbye();
 int main(){
     printhello();
     goodbye();

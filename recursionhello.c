@@ -1,10 +1,16 @@
 #include <stdio.h>
-void printhw(int n);
+//void printhw(int n);
+const char* printHW(int n);
 int main(){
-    printhw(5);
+    printf("%s",printHW(5));
+    return 0;
+    //printhw(5);
 
 }
-void printhw(int n){
+const char* printHW(int n){
+    return "HW";
+}
+/*void printhw(int n){
     if(n==0){
         return;
     }
@@ -14,3 +20,4 @@ void printhw(int n){
         return;
     }
 }
+*/
